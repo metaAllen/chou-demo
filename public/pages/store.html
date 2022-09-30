@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>store</title>
+    <link rel="stylesheet" href="../css/store.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    <style>
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css);
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css);
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css);
+      </style> 
+</head>
+<body>
+<!-- navbar -->
+<link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
+</head>
+<body>
+  
+ 
+      <div class="content d-xl-none d-lg-none ">
+        
+        
+          <div id="menuToggle">
+            <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <li><a href="http://127.0.0.1:5500/public/pages/index.html">首頁</a></li>
+                <li><a href="http://127.0.0.1:5500/public/pages/store.html">商店</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/store.html">全部商品</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/store.html">購物車</a></li>
+                <li><a href="http://127.0.0.1:5500/public/pages/manage-idea.html">故事</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/manage-idea.html">經營白皮書</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/about-us.html">關於我們</a></li>
+                <li><a href="http://127.0.0.1:5500/public/pages/account-register.html">帳戶</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/account-register.html">註冊</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/account-login.html">登入</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/account-register.html">帳號管理</a></li>
+              </ul>
+         </div>  
+  </div>
+ 
+
+
+
+<div class="text-center ">
+ 
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container align-items-center">
+        
+        <ul class="list-unstyled m-0 d-flex order-1 order-lg-3 mb-4">
+
+          <li>
+            <a href="http://127.0.0.1:5500/public/pages/store.html" class="h4">
+              <i class="fas fa-shopping-cart text-dark d-none d-lg-block"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/public/pages/account-register.html" class="h4">
+              <i class="ms-5 fas fa-user text-dark mb-0 d-none d-lg-block"></i>
+          </a>
+            
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse order-2" id="menuContent">
+          <ul class="navbar-nav mt-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/public/pages/index.html">首頁</a>
+            </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://127.0.0.1:5500/public/pages/store.html" id="store" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              商店
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="store">
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/store.html">全部商品</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/store.html">購物車</a></li>
+            </ul>
+          </li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="story" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                故事
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="story">
+                <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/manage-idea.html">經營白皮書</a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/about-us.html">關於我們</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="account" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              帳戶
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="account">
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/account-register.html">註冊</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/account-login.html">登入</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/public/pages/account-register.html">帳號管理</a></li>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  
+<!-- slick -->
+<div class="container">
+  <div class="row">
+<div class="slick-store">
+  <div>
+         <img src="../images/store01.png" class="rounded"style=width:1200px;height:500px;></a>
+         <div style="left:500px; position: absolute; top: 300px;"><h2><b>和寵物攜手<br>與地球共好</h2></div></b>
+         <div style="left:445px; position: absolute; top: 420px;"><h4><b>Practice sustainable fashion</h4></div></b>        
+  </div> 
+  <div>
+          <img src="../images/store02.jpg" class="rounded"style=width:1200px;height:500px;></a>
+          <div style="left:200px; position: absolute; top: 220px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07/27 - 08/06</b><br><h2><b>☻ 毛 孩 ☻<br>&nbsp;&nbsp;主打商品</h2></div></b>
+  </div>
+  <div>
+    <img class="store03" src="../images/store03.jpg" class="rounded"style=width:1200px;height:500px;></a>
+    <div style="left:200px; position: absolute; top: 320px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 / 20</b><br><h2><b>限量義賣品<br>&nbsp;&nbsp;國 際 流 浪 動 物 日</h2></div></b>
+</div>
+</div>
+</div>
+</div>
+ 
+<script>
+
+
+jQuery('.slick-store').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+	
+</script>
+</div>
+
+
+<!-- product -->
+    <div class="container">
+      <div class="text-center mb-3 mt-5">
+        <b><h2>全部商品</b></h2>
+      </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-4 border-0 shadow-sm">
+              <img src="../images/store04.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                <h5 class="card-text"><b>陪伴兔兔</h5></b>
+              </div>
+              <div class="col-6">
+                <p class="nt-dollars">NT$ 400</p>
+              </div>
+              </div>
+            </div>
+            <p class="btn-cart ">加入購物車</p>
+            </div>  
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-4 border-0 shadow-sm">
+              <img src="../images/store05.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <h5 class="card-text"><b>紮染風格</h5></b>
+              </div>
+              <div class="col-6">
+                <p class="nt-dollars">NT$ 650</p>
+              </div>
+              </div>
+            </div>
+            <p class="btn-cart ">加入購物車</p>
+            </div>  
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-4 border-0 shadow-sm">
+              <img src="../images/store06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="row">
+                <div class="col-6">
+                  <h5 class="card-text"><b>夜晚寧靜風格</h5></b>
+              </div>
+              <div class="col-6">
+                <p class="nt-dollars">NT$ 250</p>
+              </div>
+              </div>
+            </div>
+            <p class="btn-cart ">加入購物車</p>
+            </div>  
+          </div>
+        
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="card mb-4 border-0 shadow-sm">
+            <img src="../images/store07.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="row">
+              <div class="col-6">
+                <h5 class="card-text"><b>大正浪漫風格</h5></b>
+            </div>
+            <div class="col-6">
+              <p class="nt-dollars">NT$ 650</p>
+            </div>
+            </div>
+          </div>
+          <p class="btn-cart ">加入購物車</p>
+          </div>  
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card mb-4 border-0 shadow-sm">
+            <img src="../images/store08.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="row">
+              <div class="col-6">
+                <h5 class="card-text"><b>豹紋斑點</h5></b>
+            </div>
+            <div class="col-6">
+              <p class="nt-dollars">NT$ 250</p>
+            </div>
+            </div>
+          </div>
+          <p class="btn-cart ">加入購物車</p>
+          </div>  
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card mb-4 border-0 shadow-sm">
+            <img src="../images/store09.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="row">
+              <div class="col-6">
+                <h5 class="card-text"><b>菱格網紋風格</h5></b>
+            </div>
+            <div class="col-6">
+              <p class="nt-dollars">NT$ 650</p>
+            </div>
+            </div>
+          </div>
+          <p class="btn-cart ">加入購物車</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<footer class="py-5 mt-5 bg-dark text-light">
+  <ul class="list-unstyled d-flex justify-content-center">
+    <li class="p-3">
+      <a href="http://127.0.0.1:5500/public/pages/index.html" class="link-light">首頁</a>
+    </li>
+    <li class="p-3">
+      <a href="http://127.0.0.1:5500/public/pages/store.html" class="link-light">商店</a>
+    </li>
+    <li class="p-3">
+      <a href="http://127.0.0.1:5500/public/pages/manage-idea.html" class="link-light">故事</a>
+    </li>
+    <li class="p-3">
+      <a href="http://127.0.0.1:5500/public/pages/account-register.html" class="link-light">帳戶</a>
+    </li>
+  </ul>
+  <ul class="list-unstyled d-flex justify-content-center">
+    <li>
+      <a class="pe-4 link-warning" href="https://www.facebook.com/profile.php?id=100083819858228"><i class="fab h5 fa-facebook"></i></a>
+    </li>
+    <li>
+      <a class="pe-4 link-warning" href="https://www.instagram.com/pet_cycle_0720/"><i class="fab h5 fa-instagram"></i></a>
+    </li>
+    <li>
+      <a class="pe-4 link-warning" href="https://www.facebook.com/groups/994634057875048/"><i class="	fab fa-rocketchat"></i></a>
+    </li>
+  </ul>
+  <div class="text-center mt-4">
+    <p class="small text-secondary m-0">Pet Cycle &nbsp寵你寶貝</p>
+  </div>
+</footer>
+<style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+
+
+
+
+</body>
+</html>
